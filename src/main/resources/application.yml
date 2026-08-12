@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: job-application-tracker
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+aws:
+  accessKey: ${AWS_ACCESS_KEY_ID}
+  secretKey: ${AWS_SECRET_ACCESS_KEY}
+  region: ap-south-1
+  rdsSecretName: ${RDS_SECRET_NAME}
+  bucketName: ${BUCKET_NAME}
+
+
+
